@@ -97,7 +97,7 @@ btn1.onclick = function () {
     }
 }
 function funct() {
-    window.open("http://127.0.0.1:5500/index.html", "_parent");
+    window.open("./index.html", "_parent");
 }
 document.getElementById("b2").onclick = function () {
     clearInterval(timei);
