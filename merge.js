@@ -11,7 +11,7 @@ if (n == 9) document.getElementById("in").style.width = "850px";
 if (n == 10) document.getElementById("in").style.width = "950px";
 
 for (let i = 0; i < n; i++) {
-    ars[i] = Math.floor(Math.random() * 500);
+    ars[i] = Math.floor(Math.random() * 100);
     document.getElementById("bx1").innerHTML += ars[i] + " ";
 }
 art = ars;

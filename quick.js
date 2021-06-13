@@ -4,7 +4,7 @@ let hash = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let n = Math.floor(Math.random() * 6);
 n += 5;
 for (let i = 0; i < n; i++) {
-    arr[i] = Math.floor(Math.random() * 500);
+    arr[i] = Math.floor(Math.random() * 100);
     ars[i] = arr[i];
     document.getElementById("bx1").innerHTML += arr[i] + " ";
 }
