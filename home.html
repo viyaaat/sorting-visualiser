@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting visuliser</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+    <h1 class="tt">easy_to_sort</h1>
+    <br><br><br>
+    <div class="ding">welcome</div>
+    <div class="ding">enjoy the visulisation of sorting algorithms</div>
+
+    <button class="btncl" id="bt1" onclick="funct(1)">buuble sort</button>
+    <button class="btncl" id="bt2" onclick="funct(2)">insertion sort</button>
+    <button class="btncl" id="bt3" onclick="funct(3)">selection sort</button>
+    <br>
+    <button class="btncl" id="bt4" onclick="funct(4)">merge sort</button>
+    <button class="btncl" id="bt5" onclick="funct(5)">quick sort</button>
+</body>
+
+<script>
+    function funct(a) {
+        if (a == 1) window.open("http://127.0.0.1:5500/bubble.html", "_parent");
+        if (a == 2) window.open("http://127.0.0.1:5500/insertion.html", "_parent");
+        if (a == 3) window.open("http://127.0.0.1:5500/selection.html", "_parent");
+        if (a == 4) window.open("http://127.0.0.1:5500/merge.html", "_parent");
+        if (a == 5) window.open("http://127.0.0.1:5500/quick.html", "_parent");
+    }
+</script>
+
+</html>
